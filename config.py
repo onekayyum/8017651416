@@ -28,11 +28,10 @@ OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://gb711922:IsuTGT29dM7tb07F@cluster0.agjg78z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_URI = "mongodb+srv://rjkundra:Kayamkhani@cluster0.s6lvxxs.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "74bd6c07e3d7c5f3821f50eb45a6944cb5149b54")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","leakhubd/1264")
@@ -68,7 +67,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5447083924)
+ADMINS.append(1392566136)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
