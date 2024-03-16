@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = text = f"<b>○ Creator : <a href='t.me/onekayyum'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Update Channel : <a href='https://t.me/devkayyum'>Click here</a>\n○ Group : <a href='https://t.me/onebotssupport'>One_Bots_Support_Group</a></b>",
+            text = f"<b>○ Creator : <a href='t.me/onekayyum'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Update Channel : <a href='https://t.me/devkayyum'>Click here</a>\n○ Group : <a href='https://t.me/onebotssupport'>One_Bots_Support_Group</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
