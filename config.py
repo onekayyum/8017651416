@@ -32,8 +32,8 @@ DB_URI = "mongodb+srv://Akash69:Akash123@cluster0.uz7c3yp.mongodb.net/?retryWrit
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "7d7c5ef2ddad54df4e2425f48a6e37b3faf9b093")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "e790857518485b17b65674497c65c15f32fc4e78")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","isaimini_updates")
 
