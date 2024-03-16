@@ -28,11 +28,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://Akash69:Akash123@cluster0.uz7c3yp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_URI = "mongodb+srv://sachin911420:tTYcZSm9wWE8G89D@cluster2.wa6bd31.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "e790857518485b17b65674497c65c15f32fc4e78")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "48c2e07b55036b1f8f27de4ef20504f685425cf8")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","isaimini_updates")
