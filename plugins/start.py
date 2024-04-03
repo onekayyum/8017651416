@@ -52,7 +52,7 @@ async def start_command(client: Client, message: Message):
 
         verify_status = await get_verify_status(id)
         if verify_status['is_verified'] and VERIFY_EXPIRE < (time.time() - verify_status['verified_time']):
-            if id == owner_id
+            if id == owner_id:
                 pass
             else:
                 await update_verify_status(id, is_verified=False)
