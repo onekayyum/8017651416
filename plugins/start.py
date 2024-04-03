@@ -35,7 +35,7 @@ from shortzy import Shortzy
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
 async def start_command(client: Client, message: Message):
     id = message.from_user.id
-    owner_id = ADMINS + ['5447083924']  # Fetch the owner's ID from config
+    owner_id = ADMINS # Fetch the owner's ID from config
 
     # Check if the user is the owner
     if id == owner_id:
@@ -52,7 +52,10 @@ async def start_command(client: Client, message: Message):
 
         verify_status = await get_verify_status(id)
         if verify_status['is_verified'] and VERIFY_EXPIRE < (time.time() - verify_status['verified_time']):
-            await update_verify_status(id, is_verified=False)
+            if id == owner_id
+                pass
+            else:
+                await update_verify_status(id, is_verified=False)
 
         if "verify_" in message.text:
             _, token = message.text.split("_", 1)
